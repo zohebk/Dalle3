@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T22:51:18.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="s4UJN_II4tDQLaEGql__" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T00:04:22.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VMwoV0oFsREGIs9N2yqN" version="24.0.8" type="github">
   <diagram name="Page-1" id="kt2G00YS7mGBATeyFu_T">
-    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2954" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="JB_DgjQ3pSmoF9iqRw9o-7" value="QuickBooks" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
           <mxGeometry x="1366" y="20" width="150" height="1442" as="geometry" />
         </mxCell>
-        <mxCell id="JB_DgjQ3pSmoF9iqRw9o-8" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+        <mxCell id="JB_DgjQ3pSmoF9iqRw9o-8" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;swimlaneFillColor=default;" vertex="1" parent="1">
           <mxGeometry x="85" y="196" width="762" height="248" as="geometry" />
         </mxCell>
         <mxCell id="JB_DgjQ3pSmoF9iqRw9o-9" value="[Authentication Successful (Mailchimp)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="JB_DgjQ3pSmoF9iqRw9o-8">
@@ -55,14 +55,14 @@
         <mxCell id="JB_DgjQ3pSmoF9iqRw9o-17" value="[Authentication Failed (Intuit)]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="JB_DgjQ3pSmoF9iqRw9o-15">
           <mxGeometry y="719" width="1386" height="4" as="geometry" />
         </mxCell>
-        <mxCell id="JB_DgjQ3pSmoF9iqRw9o-18" value="Authentication Request (Mailchimp)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="JB_DgjQ3pSmoF9iqRw9o-1" target="JB_DgjQ3pSmoF9iqRw9o-2">
+        <mxCell id="JB_DgjQ3pSmoF9iqRw9o-18" value="Authentication Request (Mailchimp)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;flowAnimation=1;" edge="1" parent="1" source="JB_DgjQ3pSmoF9iqRw9o-1" target="JB_DgjQ3pSmoF9iqRw9o-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="267" y="176" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JB_DgjQ3pSmoF9iqRw9o-19" value="Return Access Token" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="JB_DgjQ3pSmoF9iqRw9o-2" target="JB_DgjQ3pSmoF9iqRw9o-1">
+        <mxCell id="JB_DgjQ3pSmoF9iqRw9o-19" value="Return Access Token" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;flowAnimation=1;jumpSize=90;" edge="1" parent="1" source="JB_DgjQ3pSmoF9iqRw9o-2" target="JB_DgjQ3pSmoF9iqRw9o-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="267" y="274" />
@@ -168,7 +168,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JB_DgjQ3pSmoF9iqRw9o-34" value="User attempts to log in" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
-          <mxGeometry x="70" y="95" width="792" height="49" as="geometry" />
+          <mxGeometry x="70" y="100" width="792" height="49" as="geometry" />
         </mxCell>
         <mxCell id="JB_DgjQ3pSmoF9iqRw9o-35" value="User attempts to log in to Intuit Products" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
           <mxGeometry x="70" y="454" width="1396" height="49" as="geometry" />
