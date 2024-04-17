@@ -1,9 +1,136 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T00:08:42.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.0.8" etag="pPb0qiAXaDSYpm8T70-r" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T00:19:16.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="H_EHPCy669KzFCaP1jXF" version="24.0.8" type="github">
   <diagram name="Page-1" id="UQELWb8urLfKzbmkDLOf">
-    <mxGraphModel>
+    <mxGraphModel dx="2954" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-2" value="Asynchronous Processing" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="678" width="632" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-3" value="6. SMS Service" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="261" y="704" width="118" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-4" value="7. Email Service" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="561" y="704" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-5" value="9. User Onboarding" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="397" y="807" width="153" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-6" value="1. User Interface" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="874.5" y="350" width="136" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-7" value="2. Orchestration Layer" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="692" y="473" width="177" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-8" value="3. Invitation Service" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="393" y="576" width="159" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-9" value="4. Role Management Service" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="984" y="576" width="218" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-10" value="5. Other Services" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="576" width="138" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-11" value="8. Identity and Access Management" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="704" width="268" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-12" value="10. Data Migration Service" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="807" width="204" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-13" value="11. Legacy Role Management System" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="935" width="278" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-14" value="12. Access Control Rules Store" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="827" y="704" width="231" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-15" value="1. Request to add user" style="curved=1;startArrow=none;endArrow=block;exitX=-0.003130744485294118;exitY=0.830852278621739;entryX=0.4999337923728814;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-6" target="hTDVAAVcnWpcYHXlJUJz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-16" value="2a. Calls service for user invite" style="curved=1;startArrow=none;endArrow=block;exitX=-0.00035310734463276836;exitY=0.9362259033972419;entryX=0.5032306407232704;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-7" target="hTDVAAVcnWpcYHXlJUJz-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="473" y="542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-17" value="2b. Calls service for role management" style="curved=1;startArrow=none;endArrow=block;exitX=0.7578877067220671;exitY=1;entryX=0.23558406909682028;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-7" target="hTDVAAVcnWpcYHXlJUJz-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="919" y="542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-18" value="2c. Calls other necessary services" style="curved=1;startArrow=none;endArrow=block;exitX=1.0002206920903955;exitY=0.7327639179426158;entryX=0.498046875;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-7" target="hTDVAAVcnWpcYHXlJUJz-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1357" y="542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-19" value="3a. Send invite via SMS" style="curved=1;startArrow=none;endArrow=block;exitX=0.18537514025004587;exitY=1;entryX=0.4992386122881356;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-8" target="hTDVAAVcnWpcYHXlJUJz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-20" value="3b. Send invite via Email" style="curved=1;startArrow=none;endArrow=block;exitX=0.821086141196495;exitY=1;entryX=0.5009014423076923;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-8" target="hTDVAAVcnWpcYHXlJUJz-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-21" value="6a. User completes onboarding via SMS" style="curved=1;startArrow=none;endArrow=block;exitX=0.4992386122881356;exitY=1;entryX=0.16650096274351173;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-3" target="hTDVAAVcnWpcYHXlJUJz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-22" value="7a. User completes onboarding via Email" style="curved=1;startArrow=none;endArrow=block;exitX=0.5009014423076923;exitY=1;entryX=0.8271418068643314;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-4" target="hTDVAAVcnWpcYHXlJUJz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-23" value="4a. Manage roles &amp; permissions" style="curved=1;startArrow=none;endArrow=block;exitX=0.7258676766945759;exitY=1;entryX=0.4984841417910448;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-9" target="hTDVAAVcnWpcYHXlJUJz-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1243" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-24" value="8a. Data migration from legacy" style="curved=1;startArrow=none;endArrow=block;exitX=0.4984841417910448;exitY=1;entryX=0.49800857843137253;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-11" target="hTDVAAVcnWpcYHXlJUJz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-25" value="11. Migrate data" style="curved=1;startArrow=none;endArrow=block;exitX=0.49800857843137253;exitY=1;entryX=0.4985386690647482;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-12" target="hTDVAAVcnWpcYHXlJUJz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-26" value="4b. Access control operations" style="curved=1;startArrow=none;endArrow=block;exitX=0.2721971168834058;exitY=1;entryX=0.5020968614718615;entryY=0;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-9" target="hTDVAAVcnWpcYHXlJUJz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="943" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTDVAAVcnWpcYHXlJUJz-27" value="4c. User requests access via UI" style="curved=1;startArrow=none;endArrow=block;exitX=0.6178798877705531;exitY=0;entryX=0.6889545259851514;entryY=1;rounded=0;" edge="1" parent="1" source="hTDVAAVcnWpcYHXlJUJz-9" target="hTDVAAVcnWpcYHXlJUJz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1171" y="542" />
+              <mxPoint x="1171" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
